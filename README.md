@@ -1,26 +1,28 @@
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
-</h1>
+<h1 align="center">Next Level Week - 1.0</h1>
+
+<h2 align="center">
+  <img alt="Ecoleta" src="./github/assests/logo.svg" title="Ecoleta Logo"/>
+</h2>
 
 <h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
+	NextLevelWeek 1.0 🚀 🚧 Work in progress... 🚧
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/NLW-1.0?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Guilherme/NLW-1.0?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-1.0">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Guilherme/NLW-1.0">
 	
-  <a href="https://www.linkedin.com/in/danielobara/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
+  <a href="https://www.linkedin.com/in/Guilherme/">
+    <img alt="Made by Guilherme" src="https://img.shields.io/badge/made%20by-Guilherme-%2304D361">
   </a>
 
-  <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DanielObara/NLW-1.0">
+  <a href="https://github.com/Guilherme/NLW-1.0/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Guilherme/NLW-1.0">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/DanielObara/NLW-1.0/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/NLW-1.0?style=social">
+   <a href="https://github.com/Guilherme/NLW-1.0/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Guilherme/NLW-1.0?style=social">
   </a>
 </p>
 
@@ -34,7 +36,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-## :information_source: What's Next Level Week?
+## ℹ️ What's Next Level Week?
 
 NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
 Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
@@ -42,13 +44,12 @@ An online and completely free event that will help you take the next step in you
 
 ## 💻 Project
 
-Ecoleta is a project developed based on international environment week. 
+Ecoleta is a project developed based on international environment week.
 That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
 
 <h1 align="center">
     <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
 </h1>
-
 
 ## :rocket: Technologies
 
@@ -70,11 +71,11 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 From your command line:
 
-### Install API 
+### Install API
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/Guilherme/NLW-1.0
 
 # Go into the repository
 $ cd NLW-1.0/backend
@@ -105,10 +106,9 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/Guilherme/NLW-1.0/blob/master/LICENSE) for details.
 
-
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Guilherme Marroquio :wave: [Get in touch!](https://www.linkedin.com/in/Guilherme/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
