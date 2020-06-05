@@ -8,20 +8,20 @@
 	Next Level Week 1.0 🚀 🚧 Work in progress... 🚧
 </h4>
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmarroquio/NLW-1.0-ecoleta?color=%23E491A6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmarroquio/NLW-1.0-ecoleta?color=%23FF91AD">
 	
   <a href="https://www.linkedin.com/in/gmarroquio/">
-    <img alt="Made by Guilherme" src="https://img.shields.io/badge/made%20by-Guilherme-%237BE3C4">
+    <img alt="Made by Guilherme" src="https://img.shields.io/badge/made%20by-Guilherme-%238CE2FF">
   </a>
 
   <a href="https://github.com/Guilherme/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmarroquio/NLW-1.0-ecoleta?color=%23E491A6">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmarroquio/NLW-1.0-ecoleta?color=%23FF91AD">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT?color=%237BE3C4">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT?color=%238CE2FF">
 
   <a href="https://github.com/gmarroquio/NLW-1.0-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/gmarroquio/NLW-1.0-ecoleta?color=%23E491A6">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/gmarroquio/NLW-1.0-ecoleta?color=%23FF91AD">
   </a>
 </p>
 
