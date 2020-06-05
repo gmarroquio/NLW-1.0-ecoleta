@@ -5,27 +5,26 @@
 </h2>
 
 <h4 align="center"> 
-	NextLevelWeek 1.0 🚀 🚧 Work in progress... 🚧
+	Next Level Week 1.0 🚀 🚧 Work in progress... 🚧
 </h4>
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmarroquio/NLW-1.0-ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmarroquio/NLW-1.0-ecoleta?color=%23E3B3C1">
 	
   <a href="https://www.linkedin.com/in/gmarroquio/">
-    <img alt="Made by Guilherme" src="https://img.shields.io/badge/made%20by-Guilherme-%2304D361">
+    <img alt="Made by Guilherme" src="https://img.shields.io/badge/made%20by-Guilherme-%239DE3CD">
   </a>
 
   <a href="https://github.com/Guilherme/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmarroquio/NLW-1.0-ecoleta">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmarroquio/NLW-1.0-ecoleta?color=%23E3B3C1">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT?color=%239DE3CD">
    <a href="https://github.com/gmarroquio/NLW-1.0-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/gmarroquio/NLW-1.0-ecoleta?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/gmarroquio/NLW-1.0-ecoleta?color=%23E3B3C1">
   </a>
 </p>
 
 <p align="center">
-  <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -34,24 +33,18 @@
   <a href="#memo-license">License</a>
 </p>
 
-## ℹ️ What's Next Level Week?
-
-NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
-Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
-An online and completely free event that will help you take the next step in your evolution as a dev.
-
 ## 💻 Project
 
 Ecoleta is a project developed based on international environment week.
 That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
 
 <h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
+    <img alt="Example" title="Example" src=".github/Capa.svg" width="500px" />
 </h1>
 
-## :rocket: Technologies
+## 🚀 Technologies
 
-This project was developed with the following technologies:
+This project is using the following technologies:
 
 - [Node.js][nodejs]
 - [TypeScript][typescript]
@@ -73,10 +66,10 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Guilherme/NLW-1.0
+$ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/backend
+$ cd NLW-1.0/server
 
 # Install dependencies
 $ yarn install
@@ -93,10 +86,47 @@ $ yarn dev
 running on port 3333
 ```
 
+### Running Web Server
+
+```bash
+# Clone this repository
+$ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
+
+# Go into the repository
+$ cd NLW-1.0/web
+
+# Install dependencies
+$ yarn install
+
+# Run web server
+$ yarn start
+
+running on port 3000
+```
+
+### Running Web Server
+
+Make sure that expo-cli is installed
+
+```bash
+# Clone this repository
+$ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
+
+# Go into the repository
+$ cd NLW-1.0/mobile
+
+# Install dependencies
+$ yarn install
+
+# Run web server
+$ yarn start
+
+```
+
 ## 🤔 How to contribute
 
 - Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
+- Create a branch with your feature: `git checkout -b my-feature`;
 - Commit changes: `git commit -m 'feat: My new feature'`;
 - Make a push to your branch: `git push origin my-feature`.
 
