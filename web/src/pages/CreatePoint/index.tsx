@@ -5,10 +5,11 @@ import { Link, useHistory } from "react-router-dom";
 import { Map, TileLayer, Marker } from "react-leaflet";
 import { FiArrowLeft } from "react-icons/fi";
 
+import Dropzone from "../../components/Dropzone";
+
 import api from "../../services/api";
 
 import "./styles.css";
-
 import logo from "../../assets/logo.svg";
 
 interface Item {
@@ -54,6 +55,7 @@ const CreatePoint: React.FC = () => {
     email: "",
     whatsapp: "",
   });
+  const [selectedFile, setSelectedFile] = useState<File>();
 
   const history = useHistory();
 
@@ -129,22 +131,21 @@ const CreatePoint: React.FC = () => {
     const uf = selectedUf;
     const city = selectedCity;
     const [latitude, longitude] = coord;
-    const image =
-      "https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60";
     const items = selectedItems;
 
-    const data = {
-      name,
-      email,
-      whatsapp,
-      uf,
-      city,
-      latitude,
-      longitude,
-      image,
-      items,
-    };
+    const data = new FormData();
 
+    data.append("name", name);
+    data.append("email", email);
+    data.append("whatsapp", whatsapp);
+    data.append("uf", uf);
+    data.append("city", city);
+    data.append("latitude", String(latitude));
+    data.append("longitude", String(longitude));
+    data.append("items", items.join(","));
+    if (selectedFile) {
+      data.append("image", selectedFile);
+    }
     await api.post("/points", data);
 
     history.push("/");
@@ -164,6 +165,8 @@ const CreatePoint: React.FC = () => {
         <h1>
           Cadastro do <br /> ponto de coleta
         </h1>
+
+        <Dropzone onFileUploaded={setSelectedFile} />
 
         {/** Dados da entidade */}
         <fieldset>
