@@ -70,7 +70,7 @@ From your command line:
 $ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/server
+$ cd NLW-1.0-ecoleta/server
 
 # Install dependencies
 $ yarn install
@@ -94,7 +94,7 @@ running on port 3333
 $ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/web
+$ cd NLW-1.0-ecoleta/web
 
 # Install dependencies
 $ yarn install
@@ -114,7 +114,7 @@ Make sure that expo-cli is installed
 $ git clone https://github.com/gmarroquio/NLW-1.0-ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/mobile
+$ cd NLW-1.0-ecoleta/mobile
 
 # Install dependencies
 $ yarn install

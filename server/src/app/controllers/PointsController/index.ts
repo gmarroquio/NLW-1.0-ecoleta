@@ -17,7 +17,12 @@ class PointsController {
       .distinct()
       .select('points.*');
 
-    return response.json(points);
+    const serializedPoints = points.map((point) => ({
+      ...point,
+      url: `http://192.168.0.195:3333/uploads/${point.image}`,
+    }));
+
+    return response.json(serializedPoints);
   }
 
   async show(request: Request, response: Response): Promise<Response<any>> {
@@ -27,7 +32,7 @@ class PointsController {
     if (!point) {
       return response
         .status(400)
-        .json({ error: 'Point id doent belong to any point' });
+        .json({ error: "Point id doesn't belong to any point" });
     }
 
     const items = await knex('items')
@@ -35,12 +40,16 @@ class PointsController {
       .where('point_items.point_id', id)
       .select('items.title');
 
-    return response.json({ point, items });
+    const serializedPoints = {
+      ...point,
+      url: `http://192.168.0.195:3333/uploads/${point.image}`,
+    };
+
+    return response.json({ point: serializedPoints, items });
   }
 
   async store(request: Request, response: Response): Promise<Response<any>> {
     const {
-      image,
       name,
       email,
       whatsapp,
@@ -54,7 +63,7 @@ class PointsController {
     const trx = await knex.transaction();
 
     const point = {
-      image,
+      image: request.file.filename,
       name,
       email,
       whatsapp,
@@ -66,7 +75,10 @@ class PointsController {
 
     const [point_id] = await trx('points').insert(point);
 
-    const pointItems = items.map((item_id: number) => ({ item_id, point_id }));
+    const pointItems = items
+      .split(',')
+      .map((item: string) => Number(item.trim()))
+      .map((item_id: number) => ({ item_id, point_id }));
     await trx('point_items').insert(pointItems);
 
     await trx.commit();
